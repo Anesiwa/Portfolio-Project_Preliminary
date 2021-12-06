@@ -25,6 +25,13 @@ body {
   font-family: var(--default-font-family);
   border-radius: 2;
 }
+nav {
+  background: linear-gradient(
+    90deg,
+    rgba(186, 232, 232, 1) 20%,
+    rgba(39, 35, 67, 1) 70%
+  );
+}
 .hero {
   text-align: center;
   background: var(--branding-color);
@@ -42,8 +49,11 @@ body {
   font-weight: normal;
   font-size: 20px;
 }
-nav {
-  border-bottom: 3px solid var(--secondary-color);
+.navbar-brand {
+  color: var(--tertiary-color);
+}
+.nav-link {
+  color: var(--branding-color);
 }
 #navbarNav {
   justify-content: flex-end;
