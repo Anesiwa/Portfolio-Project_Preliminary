@@ -2,6 +2,7 @@
   --branding-color: #e3f6f5;
   --secondary-color: #bae8e8;
   --tertiary-color: #272343;
+  --box-shadow: 0 3px 8px rgb(39, 35, 67);
   --heading-font-family: "Playfair Display", sans-serif;
   --default-font-family: "Merriweather", serif;
 }
@@ -39,6 +40,9 @@ nav {
   margin: 30px 0;
   padding: 80px;
 }
+.hero h1 {
+  text-decoration: underline;
+}
 .hero p {
   font-size: 24px;
   font-weight: bold;
@@ -54,6 +58,27 @@ nav {
 }
 .nav-link {
   color: var(--branding-color);
+}
+.navigation-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.primary-link {
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
+  color: #ffffff;
 }
 #navbarNav {
   justify-content: flex-end;
