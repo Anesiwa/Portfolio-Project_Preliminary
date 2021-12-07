@@ -131,9 +131,7 @@ h3 .sidekickHeaderWrapper,
 .profile-pic {
   margin-top: 45px;
 }
-#profileBackground {
-  background-color: var(--secondary-color);
-}
+
 #navbarNav {
   justify-content: flex-end;
 }
