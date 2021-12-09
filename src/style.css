@@ -111,9 +111,7 @@ previewParagraghs {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.aboutHeaderWrapper {
-  justify-content: space-between;
-}
+
 .about-me-description,
 .about-job,
 h3 .sidekickHeaderWrapper,
@@ -121,17 +119,28 @@ h3 .sidekickHeaderWrapper,
   color: var(--tertiary-color);
   font-weight: normal;
 }
-.sidekickHeaderWrapper {
-  margin-top: 120px;
-  padding: 80px;
-}
+
 .about-name {
   line-height: 1.5;
+  font-size: 64px;
+}
+.about-hello {
+  font-size: ;
+}
+.about-container {
+  padding: 160px 20px;
+}
+.about-content {
+  margin: 30px;
 }
 .profile-pic {
-  margin-top: 45px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: var(--box-shadow);
 }
-
+.picture-wrapper {
+  margin-top: 20px;
+}
 #navbarNav {
   justify-content: flex-end;
 }
@@ -187,5 +196,10 @@ h3 .sidekickHeaderWrapper,
   .profile-pic {
     margin-top: 17px;
     margin-bottom: 17px;
+  }
+  .about-container {
+    text-align: center;
+    padding: 15px;
+    border: 5px solid var(--secondary-color);
   }
 }
