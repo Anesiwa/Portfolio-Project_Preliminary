@@ -112,21 +112,29 @@ previewParagraghs {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.content-description,
-.content-job,
-h3 .sidekickHeaderWrapper,
-.content-hello {
+.content p,
+.about-description,
+.content-job-location {
   color: var(--tertiary-color);
   font-weight: normal;
 }
-
-.content-name {
+.content p {
+  font-size: 14px;
+  margin: 0;
+}
+.content h1 {
   line-height: 1.5;
   font-size: 64px;
 }
-.content-hello {
-  font-size: ;
+.content h2 {
+  font-size: 18px;
 }
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
 .content-container {
   padding: 160px 20px;
 }
@@ -165,7 +173,7 @@ h3 .sidekickHeaderWrapper,
     font-size: 42px;
   }
   .hero {
-    margin: 40px 0 40px 0;
+    margin: 55px 0 15px 0;
     padding: 40px;
   }
   .hero h1 {
@@ -189,17 +197,32 @@ h3 .sidekickHeaderWrapper,
   .navigation-links {
     display: none;
   }
-  .sidekickHeaderWrapper {
-    margin: 60px 0;
+  .sidekickHeaderWrapper,
+  .content-container {
+    margin: 56px 0;
     padding: 10px;
   }
   .profile-pic {
     margin-top: 17px;
     margin-bottom: 17px;
   }
-  .content-container {
+  .content-container,
+  .portfolioWrapper {
     text-align: center;
     padding: 15px;
-    border: 5px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+  }
+  .content h1 {
+    line-height: 1;
+    font-size: 50px;
+  }
+
+  #about-header {
+    margin: 60px 0;
+  }
+  .portfolioWrapper {
+    padding: 10px;
+    color: var(--tertiary-color);
+    border: 3px solid var(--secondary-color);
   }
 }
