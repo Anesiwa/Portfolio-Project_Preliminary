@@ -141,6 +141,11 @@ previewParagraghs {
 .content {
   margin: 30px;
 }
+.contact-row {
+  background-color: var(--fourth-color);
+  padding: 20px;
+}
+
 .profile-pic {
   margin: 0 auto;
   display: block;
@@ -216,7 +221,10 @@ previewParagraghs {
     line-height: 1;
     font-size: 50px;
   }
-
+  .content p {
+    font-size: 14px;
+    margin: 0;
+  }
   #about-header {
     margin: 60px 0;
   }
