@@ -67,7 +67,7 @@ previewParagraghs {
 .navigationWrapper {
   margin-top: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .primary-link {
   color: var(--fourth-color);
@@ -88,6 +88,7 @@ previewParagraghs {
   box-shadow: var(--box-shadow);
   color: var(--tertiary-color);
 }
+
 .portfolioPreviewHeader {
   font-size: 30px;
   text-decoration: underline;
@@ -134,7 +135,6 @@ previewParagraghs {
   line-height: 1.5;
   margin: 20px 0;
 }
-
 .content-container {
   padding: 160px 20px;
 }
@@ -145,7 +145,9 @@ previewParagraghs {
   background-color: var(--fourth-color);
   padding: 20px;
 }
-
+.content-container h3 {
+  margin-top: 0;
+}
 .profile-pic {
   margin: 0 auto;
   display: block;
@@ -154,6 +156,11 @@ previewParagraghs {
 .picture-wrapper {
   margin-top: 20px;
 }
+.primary-link-wrapper {
+  align-items: center;
+  justify-content: flex-end;
+}
+
 #navbarNav {
   justify-content: flex-end;
 }
@@ -232,5 +239,16 @@ previewParagraghs {
     padding: 10px;
     color: var(--tertiary-color);
     border: 3px solid var(--secondary-color);
+  }
+  .primary-link-wrapper {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 34px;
   }
 }
