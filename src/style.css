@@ -185,12 +185,14 @@ nav {
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
+  text-align: center;
 }
 .footerWrapper col-6 {
   margin-top: 10px;
 }
 .footer-social-icons a {
   margin: 0 20px;
+  align-items: center;
 }
 .footerWrapper a:hover {
   color: var(--secondary-color);
@@ -200,7 +202,7 @@ nav {
 
 @media (max-width: 576px) {
   body {
-    margin: 0;
+    margin: 5px;
   }
   h1,
   h2,
@@ -299,6 +301,12 @@ nav {
     background-color: var(--fourth-color);
     padding: 20px 0px;
     border-radius: 10px;
-    max-width: 100%;
+  }
+  .footer-social-icons a {
+    margin: 0 15px;
+    align-items: center;
+  }
+  .footer-social-icons {
+    margin-bottom: 22px;
   }
 }
