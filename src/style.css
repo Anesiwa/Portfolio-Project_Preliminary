@@ -136,7 +136,7 @@ nav {
   margin: 20px 0;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 .content {
   margin: 30px;
@@ -217,7 +217,7 @@ nav {
     font-size: 42px;
   }
   .hero {
-    margin: 55px 0 15px 0;
+    margin: 26px 0 15px 0;
     padding: 40px;
   }
   .hero h1 {
@@ -301,6 +301,9 @@ nav {
     background-color: var(--fourth-color);
     padding: 20px 0px;
     border-radius: 10px;
+  }
+  .contact-box {
+    display: none;
   }
   .footer-social-icons a {
     margin: 0 15px;
